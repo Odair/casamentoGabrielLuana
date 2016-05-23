@@ -1,0 +1,127 @@
+#listapresentes
+{
+position: relative;
+width: 100%;
+padding: 100px 0px 60px;
+background-color: #f3f3f3;
+background-size: cover;
+background-position: center top;
+background-repeat: no-repeat;
+background-attachment: initial;
+}
+
+#listapresentes .col-md-3
+{
+    max-height: 300px;
+}
+
+#dicas
+{
+position: relative;
+width: 100%;
+padding: 100px 0px 60px;
+background-color: #f3f3f3;
+background-size: cover;
+background-position: center top;
+background-repeat: no-repeat;
+background-attachment: initial;
+}
+
+#dicas h1
+{
+padding-bottom: 30px;
+    font-family: "Lobster",cursive;
+    font-size: 85px;
+    line-height: 87px;
+    font-weight: 700;
+    color: #96c7f5;
+    text-shadow: 3px 2px 0px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+#listapresentes h1 {
+    
+    padding-bottom: 30px;
+    font-family: "Lobster",cursive;
+    font-size: 85px;
+    line-height: 87px;
+    font-weight: 700;
+    color: #96c7f5;
+    text-shadow: 3px 2px 0px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+#rodape
+{
+position: relative;
+width: 100%;
+padding: 20px 0px 60px;
+background-color: rgb(255, 215, 0);
+background-size: cover;
+background-position: center top;
+background-repeat: no-repeat;
+background-attachment: initial;
+}
+
+.line-rodape {
+    position: absolute;
+    z-index: 4;
+    height: 10%;
+    top:-5px;
+    left: 0px;
+    width: 100%;
+    height: 24px;
+    background-color: rgb(255, 215, 0);
+    box-shadow:  2px 5px 0px rgb(255, 219, 88);
+}
+
+.quadro
+{ 
+    background-color: white;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 30px;
+    padding: 27px;
+}
+
+
+
+.bb-year-end-ribbon h2, h3 {
+  font-weight: 100 !important;
+}
+
+.bb-year-end-ribbon, 
+.bb-year-end-ribbon:before, 
+.bb-year-end-ribbon:after {
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box;
+}
+
+.bb-year-end-ribbon {
+  background: black;
+  position: relative;
+  font-weight: 100 !important;
+  
+    font-size: 30px;
+  color: white;
+  display: inline-block;
+  padding: .5em 1em;
+  text-align: center;
+  text-transform: uppercase;
+  &:before, &:after {
+    background:  #d95658;
+    position: absolute;
+  	top: .6em;
+    content: ' ';
+  	height: 0;
+  	border: 1.05em solid rgba(0, 0, 0, 0);
+  	border-left: .9em solid white;
+  }
+  &:before {
+  	left:  -1.85em; 
+  }
+  &:after {
+  	right: -1.85em; 
+    transform: rotate(180deg);
+  }
+}
